@@ -1,0 +1,140 @@
+.contact {
+  padding: 100px 10%;
+  background-color: #0b1f31;
+  color: #f0f4f8;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact h2 .highlight {
+  color: #ffd700;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.contact-info, .contact-form {
+  background-color: #112841;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 450px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  color: #c7d0d8;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.info-item-link {
+
+text-decoration: none;  
+color: inherit;  
+display: block;  
+}.info-item {
+display: flex;
+align-items: center;
+margin-bottom: 1rem;
+transition: transform 0.3s ease;  
+
+}
+.info-item:hover {
+transform: translateX(5px);
+text-shadow: 0 8px 16px rgb(182, 179, 2);
+
+
+}.contact-icon {
+width: 24px;
+height: 24px;
+margin-right: 10px;
+
+}
+
+ 
+.info-item p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  color: #aeb4be;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #19314a;
+  border: 1px solid #2a415a;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aeb4be;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background: #ffd700;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: #0b1f31;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #f4df94;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
